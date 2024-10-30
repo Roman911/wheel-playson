@@ -56,7 +56,7 @@ export function useWheelAnimation (translation, currentCurrency) {
 
       return $(
           `<div class="wheel__text-wrap" style="--i: ${i + 1}">
-                <img src="/src/assets/bonus-${i}.png" alt="">
+                <img src="./src/assets/bonus-${i}.png" alt="">
                <div class="wheel__text">
                   ${wheelText[0]}
                   <br/>
