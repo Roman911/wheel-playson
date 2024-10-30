@@ -1,4 +1,4 @@
-import { useI18n } from './i18n.js'
+import { useI18n } from './i18n.js';
 
 export function useWheelAnimation (translation, currentCurrency) {
   const { applyTranslation } = useI18n()
