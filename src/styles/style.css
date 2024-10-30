@@ -131,8 +131,8 @@
 .wheel__text-block .wheel__text-wrap {
     position: relative;
     grid-area: layer;
-    width: 13vmin;
-    height: 13vmin;
+    width: 12vmin;
+    height: 12vmin;
     border-radius: 50%;
     display: grid;
     place-items: center;
@@ -146,9 +146,14 @@
     --transform: rotate(var(--r)) translate(var(--radius)) rotate(0);
     transform: var(--transform);
     transition: transform 1.5s ease-in-out;
+
+    img {
+        width: 100%;
+    }
 }
 
 .wheel__text {
+    display: none;
     font-family: "Roboto";
     font-style: normal;
     font-weight: 700;
@@ -194,7 +199,7 @@
     }
 
     .wheel__text {
-        font-size: 12px;
+        font-size: 11px;
     }
 
     .wheel__text-block {
@@ -202,8 +207,8 @@
     }
 
     .wheel__text-block .wheel__text-wrap {
-        width: 22vmin;
-        height: 22vmin;
+        width: 20vmin;
+        height: 20vmin;
     }
 
     .wheel__element {
@@ -216,7 +221,7 @@
     }
 
     .wheel__text-wrap:before {
-        left: -70px;
+        left: -56px;
         border-left: 90px solid transparent;
         border-right: 90px solid transparent;
         border-bottom: 154px solid #040D40;
